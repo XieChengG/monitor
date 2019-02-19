@@ -3,8 +3,8 @@
 
 import psutil
 
-psutil.mem
-
+psutil.virtual_memory()  # 系统内存使用情况
+psutil.swap_memory()  # 系统虚拟内存使用情况
 
 
 
